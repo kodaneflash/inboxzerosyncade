@@ -4,8 +4,8 @@
   "pipeline": {
     "build": {
       "env": [
-        "DATABASE_URL",
-        "DIRECT_URL",
+        "POSTGRES_PRISMA_URL",
+        "POSTGRES_URL_NON_POOLING",
         "GOOGLE_CLIENT_ID",
         "GOOGLE_CLIENT_SECRET",
         "NEXTAUTH_URL",
